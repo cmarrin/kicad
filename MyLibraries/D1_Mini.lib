@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model D1_Mini
+#/620739/29612/2.18/16/4/Undefined or Miscellaneous
+DEF D1_Mini U 0 30 Y Y 1 F N
+F0 "U" 450 150 50 H V C CNN
+F1 "D1_Mini" 450 -850 50 H V C CNN
+F2 "D1-MINI" 450 -950 50 H I C CNN
+F3 "https://www.wemos.cc/product/d1-mini.html" 450 -1050 50 H I C CNN
+F4 "wifi board based on ESP-8266EX." 450 -1150 50 H I C CNN "Description"
+F5 "RS" 450 -1250 50 H I C CNN "Supplier_Name"
+F6 "" 450 -1350 50 H I C CNN "RS Part Number"
+F7 "Wemos" 450 -1450 50 H I C CNN "Manufacturer_Name"
+F8 "D1 Mini" 450 -1550 50 H I C CNN "Manufacturer_Part_Number"
+F9 "" 450 -1650 50 H I C CNN "Allied_Number"
+F10 "" 450 -1750 50 H I C CNN "Other Part Number"
+F11 "" 750 -1850 50 H I C CNN "Height"
+DRAW
+S 200 100 700 -800 0 0 10 f
+X TX 1 0 0 200 R 50 50 0 0 U
+X RX 2 0 -100 200 R 50 50 0 0 U
+X D1 3 0 -200 200 R 50 50 0 0 U
+X D2 4 0 -300 200 R 50 50 0 0 U
+X D3 5 0 -400 200 R 50 50 0 0 U
+X D4 6 0 -500 200 R 50 50 0 0 U
+X G 7 0 -600 200 R 50 50 0 0 U
+X 5V 8 0 -700 200 R 50 50 0 0 U
+X 3V3 9 900 0 200 L 50 50 0 0 U
+X D8 10 900 -100 200 L 50 50 0 0 U
+X D7 11 900 -200 200 L 50 50 0 0 U
+X D6 12 900 -300 200 L 50 50 0 0 U
+X D5 13 900 -400 200 L 50 50 0 0 U
+X D0 14 900 -500 200 L 50 50 0 0 U
+X A0 15 900 -600 200 L 50 50 0 0 U
+X RST 16 900 -700 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library
